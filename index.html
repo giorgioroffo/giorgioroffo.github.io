@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Giorgio Roffo, PhD — Head of AI at Equixly. Researcher in Deep Learning, Attention Models, Large Language Models, Computer Vision, and Agentic AI.">
+  <meta name="author" content="Giorgio Roffo">
+  <meta property="og:title"       content="Giorgio Roffo, PhD">
+  <meta property="og:description" content="Head of AI · Deep Learning, Attention Models, Large Language Models, Computer Vision, Agentic AI">
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://giorgioroffo.github.io/">
+  <title>Giorgio Roffo, PhD — AI Researcher</title>
+
+  <!-- Font Awesome 6 (icons) -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════
+     NAVIGATION
+════════════════════════════════════════════════════════════ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">Giorgio Roffo</a>
+    <ul class="nav-menu" id="nav-menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#research-focus">Research</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="mailto:giorgio.roffo@gmail.com?subject=CV%20Request&body=Hi%20Giorgio%2C%20I%20would%20like%20to%20request%20a%20copy%20of%20your%20CV." class="btn-nav-cv">
+      <i class="fa-regular fa-envelope"></i>&nbsp;Request CV
+    </a>
+    <button id="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+  </div>
+</nav>
+
+<main>
+
+<!-- ═══════════════════════════════════════════════════════════
+     ABOUT / HERO
+════════════════════════════════════════════════════════════ -->
+<section id="about" class="section-hero">
+  <div class="container">
+    <div class="hero-layout">
+
+      <!-- Photo + sidebar -->
+      <aside class="hero-photo-col">
+        <div class="avatar-wrap">
+          <img src="assets/img/profile.jpg" alt="Giorgio Roffo" class="avatar"
+               onerror="this.style.display='none'; document.getElementById('avatar-fb').style.display='flex';">
+          <div id="avatar-fb" class="avatar-fallback">GR</div>
+        </div>
+
+        <div class="sidebar-info">
+          <div class="sidebar-item">
+            <i class="fas fa-briefcase"></i>
+            <span>Head of AI &middot; Equixly</span>
+          </div>
+          <div class="sidebar-item">
+            <i class="fas fa-location-dot"></i>
+            <span>Italy / United Kingdom</span>
+          </div>
+          <div class="sidebar-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:giorgio.roffo@equixly.com">giorgio.roffo@equixly.com</a>
+          </div>
+          <div class="sidebar-item">
+            <i class="fas fa-globe"></i>
+            <a href="https://giorgioroffo.github.io/" target="_blank" rel="noopener noreferrer">https://giorgioroffo.github.io/</a>
+          </div>
+        </div>
+
+        <div class="social-icons">
+          <a href="https://github.com/giorgioroffo"
+             target="_blank" rel="noopener noreferrer"
+             title="GitHub" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://scholar.google.com/citations?user=cD2LFuUAAAAJ&hl=en&authuser=2"
+             target="_blank" rel="noopener noreferrer"
+             title="Google Scholar" class="social-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/giorgio-roffo/"
+             target="_blank" rel="noopener noreferrer"
+             title="LinkedIn" class="social-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://orcid.org/0000-0003-4170-914X"
+             target="_blank" rel="noopener noreferrer"
+             title="ORCID" class="social-icon">
+            <i class="fab fa-orcid"></i>
+          </a>
+          <a href="https://huggingface.co/groffo"
+             target="_blank" rel="noopener noreferrer"
+             title="Hugging Face" class="social-icon">
+            <span class="social-icon-emoji">&#129303;</span>
+          </a>
+          <a href="https://www.researchgate.net/profile/Giorgio-Roffo"
+             target="_blank" rel="noopener noreferrer"
+             title="ResearchGate" class="social-icon">
+            <i class="fab fa-researchgate"></i>
+          </a>
+          <a href="https://www.youtube.com/channel/UCMO7NnBZAkVAfFrD6fOJZag"
+             target="_blank" rel="noopener noreferrer"
+             title="YouTube" class="social-icon">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </aside>
+
+      <!-- Main text -->
+      <div class="hero-content-col">
+        <div>
+          <span class="hero-name">Giorgio Roffo</span>
+          <span class="hero-degree">PhD</span>
+        </div>
+        <p class="hero-title">PhD | Head of AI | AI Research Scientist</p>
+        <p class="hero-org">
+          Deep Learning · Attention Models · Large Language Models · Computer Vision · Agentic AI
+        </p>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num">13+</span>
+            <span class="stat-label">Years in AI Research</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">50+</span>
+            <span class="stat-label">Publications</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">2,590+</span>
+            <span class="stat-label">Citations</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">22</span>
+            <span class="stat-label">h-index</span>
+          </div>
+        </div>
+
+        <p class="hero-bio">
+          I am a PhD researcher and Head of AI with over 13 years of experience
+          across academia and industry. My research spans <strong>computer
+          vision</strong>, <strong>multimodal AI</strong>, <strong>medical
+          imaging</strong>, <strong>attention and feature selection</strong>,
+          and <strong>LLM systems</strong>. I have translated fundamental
+          research into deployed products and high-impact publications at
+          venues including TPAMI, ICCV, MICCAI, CHI, and ACM Multimedia.
+        </p>
+        <p class="hero-bio">
+          My core methodological contribution is
+          <strong>Infinite Feature Selection (Inf-FS)</strong>, a graph-theoretic
+          framework for feature ranking published in IEEE TPAMI (2020) and ICCV (2015, 2017),
+          now extended to <strong>Infinite Self-Attention (InfSA)</strong> &mdash;
+          a spectral reformulation enabling linear-cost multi-hop attention in Transformers.
+          I have led AI teams delivering FDA-cleared medical AI systems, research for
+          autonomous driving, and production-grade agentic AI platforms.
+        </p>
+
+        <div class="hero-note">
+          Currently leading AI initiatives in agentic systems and LLM alignment at Equixly.
+          Open to selected research collaborations, invited talks, and advisory work.
+        </div>
+
+        <div class="research-tags">
+          <span class="tag">Computer Vision</span>
+          <span class="tag">Medical Imaging</span>
+          <span class="tag">LLMs</span>
+          <span class="tag">Transformers</span>
+          <span class="tag">Infinite Self-Attention</span>
+          <span class="tag">Infinite Feature Selection</span>
+          <span class="tag">Agentic AI</span>
+          <span class="tag">Multimodal Learning</span>
+          <span class="tag">RL Alignment</span>
+          <span class="tag">Autonomous Driving</span>
+        </div>
+      </div><!-- .hero-content-col -->
+
+    </div><!-- .hero-layout -->
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     RESEARCH FOCUS
+════════════════════════════════════════════════════════════ -->
+<section id="research-focus" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Research Focus</h2>
+    <div class="focus-grid">
+
+      <div class="focus-card">
+        <span class="focus-icon"><i class="fas fa-project-diagram"></i></span>
+        <h3>Attention, Feature Selection &amp; Efficient AI</h3>
+        <p>
+          Infinite Feature Selection (Inf-FS), Infinite Self-Attention (InfSA),
+          spectral attention architectures, interpretable ranking methods,
+          and efficient representation learning.
+        </p>
+      </div>
+
+      <div class="focus-card">
+        <span class="focus-icon"><i class="fas fa-heartbeat"></i></span>
+        <h3>Medical AI &amp; Endoscopic Vision</h3>
+        <p>
+          AI for endoscopic image and video analysis, polyp detection and sizing,
+          bowel preparation scoring, and clinically relevant computer vision
+          deployed in FDA-cleared systems (GI Genius).
+        </p>
+      </div>
+
+      <div class="focus-card">
+        <span class="focus-icon"><i class="fas fa-brain"></i></span>
+        <h3>Multimodal &amp; Foundation Models</h3>
+        <p>
+          Large language models, vision-language systems, multimodal representation
+          learning, efficient inference and deployment, RAG systems, and agentic AI
+          architectures.
+        </p>
+      </div>
+
+      <div class="focus-card">
+        <span class="focus-icon"><i class="fas fa-rocket"></i></span>
+        <h3>Research Translation to Real Systems</h3>
+        <p>
+          Turning research into production: regulatory-compliant deployment,
+          containerized microservices, scalable AI systems, and end-to-end
+          ownership from prototype to clinical and industrial impact.
+        </p>
+      </div>
+
+    </div><!-- .focus-grid -->
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     EXPERIENCE & EDUCATION
+════════════════════════════════════════════════════════════ -->
+<section id="experience" class="section">
+  <div class="container">
+    <h2 class="section-title">Experience &amp; Education</h2>
+
+    <div class="timeline">
+
+      <!-- ── Work ── -->
+      <div class="timeline-item">
+        <div class="timeline-date">2026 &mdash; Present</div>
+        <div class="timeline-body">
+          <h3 class="timeline-role">Head of AI &amp; Manager</h3>
+          <p class="timeline-org">
+            Equixly API Security
+          </p>
+          <p class="timeline-desc">
+            Leading a team of AI researchers and ML engineers developing intelligent
+            AI applications for automated API security testing. Building production-grade
+            agentic systems&mdash;coding agents, web-crawling agents, and exploration
+            agents&mdash;orchestrated through novel frameworks such as RALF and SWARM.
+            Developing RAG-augmented conversational assistants and training large language
+            models via supervised fine-tuning and reinforcement learning to improve classification accuracy, chain-of-thought reasoning quality,
+            and inference efficiency. Training agents with online RL to autonomously
+            discover API vulnerabilities, advancing AI-driven penetration testing.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">2022 &mdash; 2025</div>
+        <div class="timeline-body">
+          <h3 class="timeline-role">Technical Lead &amp; Senior AI Research Scientist</h3>
+          <p class="timeline-org">
+            Cosmo Intelligent Medical Devices &middot; Milan, Italy
+          </p>
+          <p class="timeline-desc">
+            Led AI R&amp;D for the GI Genius platform &mdash; the first FDA-cleared AI
+            system in gastroenterology. Developed the Polyp Sizing and Bowel Preparation
+            Score Estimation modules. Led the Smart EndoNotes voice-reporting project.
+            Served as technical reviewer for the AI Access partner portal.
+            Published at MICCAI 2024 on Feature Selection Gates.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">2020 &mdash; 2022</div>
+        <div class="timeline-body">
+          <h3 class="timeline-role">PI / Research Lead</h3>
+          <p class="timeline-org">
+            Mind Vision Labs LTD &middot; Toyota Research Institute &middot; UCL London
+          </p>
+          <p class="timeline-desc">
+            AI research on attention-based architectures and Transformers for autonomous
+            driving with Prof. Nilli Lavie (UCL Attention and Cognitive Control Lab).
+            Developed self-attention and causality-aware models for temporal scene
+            understanding in safety-critical systems.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">2017 &mdash; 2020</div>
+        <div class="timeline-body">
+          <h3 class="timeline-role">Senior Research Scientist (Post-Doc)</h3>
+          <p class="timeline-org">
+            University of Glasgow, School of Computing Science &middot; United Kingdom
+          </p>
+          <p class="timeline-desc">
+            Deep learning and attention models for social signal processing with
+            Prof. Alessandro Vinciarelli. Taught one-third of the undergraduate
+            Artificial Intelligence course (2019&ndash;2020). Supervised MSc and PhD
+            students to successful graduation with peer-reviewed publications.
+            Established a research collaboration between Glasgow and Stanford.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">2019</div>
+        <div class="timeline-body">
+          <h3 class="timeline-role">Visiting Postdoctoral Scholar</h3>
+          <p class="timeline-org">
+            Stanford University &middot; Vision &amp; Learning Lab (Prof. Silvio Savarese)
+          </p>
+          <p class="timeline-desc">
+            Research on self-attention and feature selection at the Department of
+            Computer Science. Supported by a SICSA grant for international
+            research collaboration.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">2014 &mdash; 2017</div>
+        <div class="timeline-body">
+          <h3 class="timeline-role">PhD Researcher</h3>
+          <p class="timeline-org">
+            University of Verona &middot; Verona, Italy
+          </p>
+          <p class="timeline-desc">
+            Thesis: <em>Ranking to Learn and Learning to Rank: On the Role of Ranking in
+            Pattern Recognition Applications</em>. Developed Infinite Feature Selection
+            (Inf-FS), a graph-based feature filtering framework exploiting power-series
+            convergence. Supervised by Prof. Marco Cristani and Prof. Vittorio Murino.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">2012 &mdash; 2013</div>
+        <div class="timeline-body">
+          <h3 class="timeline-role">Research Associate</h3>
+          <p class="timeline-org">
+            Italian Institute of Technology (IIT) &middot; PAVIS Lab
+          </p>
+          <p class="timeline-desc">
+            Computer vision research with Prof. Vittorio Murino and Dr. Loris Bazzani.
+            User recognition, pose estimation, and conversational stylometry.
+          </p>
+        </div>
+      </div>
+
+      <!-- ── Education ── -->
+      <div class="timeline-item timeline-edu">
+        <div class="timeline-date">2014 &mdash; 2016</div>
+        <div class="timeline-body">
+          <h3 class="timeline-role">PhD &mdash; Computer Science (Computer Vision)</h3>
+          <p class="timeline-org">University of Verona</p>
+        </div>
+      </div>
+
+      <div class="timeline-item timeline-edu">
+        <div class="timeline-date">2012 &mdash; 2013</div>
+        <div class="timeline-body">
+          <h3 class="timeline-role">Master I &mdash; Computer Game Development</h3>
+          <p class="timeline-org">University of Verona</p>
+        </div>
+      </div>
+
+      <div class="timeline-item timeline-edu">
+        <div class="timeline-date">2009 &mdash; 2011</div>
+        <div class="timeline-body">
+          <h3 class="timeline-role">MSc &mdash; Computer Science (Computer Vision, 110/110)</h3>
+          <p class="timeline-org">University of Verona</p>
+        </div>
+      </div>
+
+      <div class="timeline-item timeline-edu">
+        <div class="timeline-date">2005 &mdash; 2009</div>
+        <div class="timeline-body">
+          <h3 class="timeline-role">BSc &mdash; Computer Science (Multimedia, 110/110)</h3>
+          <p class="timeline-org">University of Verona</p>
+        </div>
+      </div>
+
+    </div><!-- .timeline -->
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     NEWS
+════════════════════════════════════════════════════════════ -->
+<section id="news" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">News</h2>
+    <ul class="news-list">
+      <li>
+        <span class="news-date">Feb 2026</span>
+        <span class="news-text">Preprint released: <em>Self-Attention And Beyond the Infinite: Towards Linear
+        Transformers with Infinite Self-Attention</em> (InfSA).
+        <a href="https://arxiv.org/abs/2603.00175"
+           target="_blank" rel="noopener noreferrer">[Paper]</a></span>
+      </li>
+      <li>
+        <span class="news-date">Jan 2026</span>
+        <span class="news-text">Joined <strong>Equixly API Security</strong> as Head of AI &amp; Manager,
+        leading agentic AI and LLM alignment research.</span>
+      </li>
+      <li>
+        <span class="news-date">2025</span>
+        <span class="news-text">Journal paper published: <em>A Temporal Convolutional Network-Based Approach
+        and a Benchmark Dataset for Colonoscopy Video Temporal Segmentation</em>.
+        <a href="https://arxiv.org/abs/2502.03430"
+           target="_blank" rel="noopener noreferrer">[Paper]</a></span>
+      </li>
+      <li>
+        <span class="news-date">Oct 2024</span>
+        <span class="news-text">Paper accepted at <strong>MICCAI 2024</strong>:
+        <em>Feature Selection Gates with Gradient Routing for Endoscopic Image Computing</em>.
+        <a href="https://github.com/cosmoimd/feature-selection-gates"
+           target="_blank" rel="noopener noreferrer">[Code]</a></span>
+      </li>
+      <li>
+        <span class="news-date">Jul 2024</span>
+        <span class="news-text">Tutorial report released: <em>Exploring Advanced Large Language Models with LLMsuite</em>.
+        <a href="https://arxiv.org/abs/2407.12036"
+           target="_blank" rel="noopener noreferrer">[Paper]</a></span>
+      </li>
+      <li>
+        <span class="news-date">2023&ndash;2025</span>
+        <span class="news-text">Led AI development for clinical and multimodal medical applications at Cosmo IMD.</span>
+      </li>
+      <li>
+        <span class="news-date">2020</span>
+        <span class="news-text">Journal paper in <strong>IEEE TPAMI</strong>:
+        <em>Infinite Feature Selection: A Graph-based Feature Filtering Approach</em>.
+        <a href="https://github.com/giorgioroffo/Infinite-Feature-Selection"
+           target="_blank" rel="noopener noreferrer">[Code]</a></span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     SELECTED PUBLICATIONS
+════════════════════════════════════════════════════════════ -->
+<section id="publications" class="section">
+  <div class="container">
+    <h2 class="section-title">
+      Selected Publications
+      <a href="publications.html" class="section-title-link">All publications &rarr;</a>
+      <a href="https://scholar.google.com/citations?user=cD2LFuUAAAAJ&hl=en&authuser=2"
+         target="_blank" rel="noopener noreferrer"
+         class="section-title-link">Google Scholar</a>
+    </h2>
+
+    <div class="pub-list">
+
+      <div class="pub-item">
+        <h3 class="pub-title">
+          Self-Attention And Beyond the Infinite: Towards Linear Transformers with
+          Infinite Self-Attention
+        </h3>
+        <p class="pub-authors">G. Roffo, H. Abdelkawy, N. Lavie, L. Palmer</p>
+        <p class="pub-venue">Preprint, 2026</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2603.00175"
+             target="_blank" rel="noopener noreferrer" class="pub-link">Paper</a>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <h3 class="pub-title">
+          A Temporal Convolutional Network-Based Approach and a Benchmark Dataset for
+          Colonoscopy Video Temporal Segmentation
+        </h3>
+        <p class="pub-authors">C. Biffi, G. Roffo, P. Salvagnini, A. Cherubini</p>
+        <p class="pub-venue">Computers in Biology and Medicine (Elsevier), 2025</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2502.03430"
+             target="_blank" rel="noopener noreferrer" class="pub-link">Paper</a>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <h3 class="pub-title">
+          Feature Selection Gates with Gradient Routing for Endoscopic Image Computing
+        </h3>
+        <p class="pub-authors">G. Roffo, C. Biffi, P. Salvagnini, A. Cherubini</p>
+        <p class="pub-venue">MICCAI 2024 &mdash; Springer LNCS</p>
+        <div class="pub-links">
+          <a href="https://link.springer.com/chapter/10.1007/978-3-031-72117-5_32"
+             target="_blank" rel="noopener noreferrer" class="pub-link">Paper</a>
+          <a href="https://github.com/cosmoimd/feature-selection-gates"
+             target="_blank" rel="noopener noreferrer" class="pub-link">Code</a>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <h3 class="pub-title">
+          Exploring Advanced Large Language Models with LLMsuite
+        </h3>
+        <p class="pub-authors">G. Roffo</p>
+        <p class="pub-venue">Preprint, 2024</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2407.12036"
+             target="_blank" rel="noopener noreferrer" class="pub-link">Paper</a>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <h3 class="pub-title">
+          Infinite Feature Selection: A Graph-based Feature Filtering Approach
+        </h3>
+        <p class="pub-authors">
+          G. Roffo, S. Melzi, U. Castellani, A. Vinciarelli, M. Cristani
+        </p>
+        <p class="pub-venue">
+          IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021
+        </p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2006.08184"
+             target="_blank" rel="noopener noreferrer" class="pub-link">Paper</a>
+          <a href="https://github.com/giorgioroffo/Infinite-Feature-Selection"
+             target="_blank" rel="noopener noreferrer" class="pub-link">Code</a>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <h3 class="pub-title">
+          Automating the Administration and Analysis of Psychiatric Tests
+        </h3>
+        <p class="pub-authors">
+          G. Roffo, D.-B. Vo, M. Tayarani, M. Rooksby, A. Sorrentino, S. Di Folco,
+          H. Minnis, S. A. Brewster, A. Vinciarelli
+        </p>
+        <p class="pub-venue">ACM CHI 2019 (Oral)</p>
+        <div class="pub-links">
+          <a href="https://dl.acm.org/doi/abs/10.1145/3290605.3300825"
+             target="_blank" rel="noopener noreferrer" class="pub-link">Paper</a>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <h3 class="pub-title">
+          Infinite Latent Feature Selection: A Probabilistic Latent Graph-Based
+          Ranking Approach
+        </h3>
+        <p class="pub-authors">G. Roffo, S. Melzi, U. Castellani, A. Vinciarelli</p>
+        <p class="pub-venue">ICCV 2017 &mdash; IEEE International Conference on Computer Vision</p>
+        <div class="pub-links">
+          <a href="https://openaccess.thecvf.com/content_iccv_2017/html/Roffo_Infinite_Latent_Feature_ICCV_2017_paper.html"
+             target="_blank" rel="noopener noreferrer" class="pub-link">Paper</a>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <h3 class="pub-title">Infinite Feature Selection</h3>
+        <p class="pub-authors">G. Roffo, S. Melzi, M. Cristani</p>
+        <p class="pub-venue">ICCV 2015 &mdash; IEEE International Conference on Computer Vision</p>
+        <div class="pub-links">
+          <a href="https://openaccess.thecvf.com/content_iccv_2015/html/Roffo_Infinite_Feature_Selection_ICCV_2015_paper.html"
+             target="_blank" rel="noopener noreferrer" class="pub-link">Paper</a>
+          <a href="https://github.com/giorgioroffo/Infinite-Feature-Selection"
+             target="_blank" rel="noopener noreferrer" class="pub-link">Code</a>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <h3 class="pub-title">
+          Conversationally-inspired Stylometric Features for Authorship Attribution
+          in Instant Messaging
+        </h3>
+        <p class="pub-authors">
+          M. Cristani, G. Roffo, C. Segalin, L. Bazzani, A. Vinciarelli, V. Murino
+        </p>
+        <p class="pub-venue">ACM Multimedia 2012</p>
+        <div class="pub-links">
+          <a href="https://dl.acm.org/doi/abs/10.1145/2393347.2396398"
+             target="_blank" rel="noopener noreferrer" class="pub-link">Paper</a>
+        </div>
+      </div>
+
+    </div><!-- .pub-list -->
+
+    <p class="pub-see-more">
+      <a href="publications.html">See all publications &rarr;</a>
+    </p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     AWARDS & RECOGNITION
+════════════════════════════════════════════════════════════ -->
+<section id="awards" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Awards &amp; Recognition</h2>
+    <ul class="awards-list">
+      <li>
+        <span class="award-year">2019</span>
+        <span><strong>CVPR Outstanding Reviewer Award</strong> &mdash;
+        IEEE/CVF Conference on Computer Vision and Pattern Recognition.</span>
+      </li>
+      <li>
+        <span class="award-year">2019</span>
+        <span><strong>Rewarding Contribution Award</strong> &mdash;
+        University of Glasgow, in recognition of research and teaching excellence.</span>
+      </li>
+      <li>
+        <span class="award-year">2019</span>
+        <span><strong>SICSA Grant</strong> &mdash;
+        Scottish Informatics and Computer Science Alliance, for international
+        research collaboration with Stanford University.</span>
+      </li>
+      <li>
+        <span class="award-year">2018</span>
+        <span><strong>MathWorks Research Summit</strong> &mdash;
+        Invited speaker, Newton, MA, USA.</span>
+      </li>
+      <li>
+        <span class="award-year">2017</span>
+        <span><strong>NVIDIA GPU Research Grant</strong> &mdash;
+        Computational resources for AI research.</span>
+      </li>
+      <li>
+        <span class="award-year">2016</span>
+        <span><strong>MathWorks Outstanding Contribution Award</strong> &mdash;
+        Recognition for research contributions to the MATLAB community.</span>
+      </li>
+      <li>
+        <span class="award-year">2015</span>
+        <span><strong>Cooperint International Programme</strong> &mdash;
+        University of Verona, for early-career international research.</span>
+      </li>
+    </ul>
+
+    <h3 class="section-subtitle" style="margin-top: 2rem;">Invited Talks</h3>
+    <ul class="awards-list">
+      <li>
+        <span class="award-year"></span>
+        <span>MIT, MathWorks Research Summit (2018), ICCV, MICCAI, BMVC, ACM Multimedia.</span>
+      </li>
+    </ul>
+
+    <h3 class="section-subtitle" style="margin-top: 2rem;">Reviewing</h3>
+    <ul class="awards-list">
+      <li>
+        <span class="award-year"></span>
+        <span>IEEE TPAMI, CVPR, ICCV, ECCV, NeurIPS, ICML, MICCAI, ACM CHI, ACM Multimedia.</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     TEACHING & MENTORSHIP
+════════════════════════════════════════════════════════════ -->
+<section id="teaching" class="section">
+  <div class="container">
+    <h2 class="section-title">Teaching &amp; Mentorship</h2>
+    <ul class="teaching-list">
+      <li>
+        Delivered one-third of the undergraduate <strong>Artificial Intelligence</strong>
+        course at the University of Glasgow (2019&ndash;2020) through frontal lectures.
+      </li>
+      <li>
+        Supervised MSc and PhD students at the University of Glasgow to successful
+        graduation with peer-reviewed publications in IEEE, ACM, and BMVC venues.
+      </li>
+      <li>
+        Mentored research teams in industry settings at Cosmo IMD and Equixly,
+        supporting junior researchers and engineers in publication-quality research.
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     COLLABORATIONS & VISITING APPOINTMENTS
+════════════════════════════════════════════════════════════ -->
+<section id="collaborations" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Collaborations &amp; Visiting Appointments</h2>
+    <div class="collabs-grid">
+
+      <div class="collab-card">
+        <h4>Stanford University</h4>
+        <p>
+          Visiting Postdoctoral Scholar, Vision &amp; Learning Lab (Prof. Silvio Savarese),
+          2019. Research on self-attention and feature selection.
+        </p>
+      </div>
+
+      <div class="collab-card">
+        <h4>University of Glasgow</h4>
+        <p>
+          Senior Research Scientist, 2017&ndash;2020. Teaching, supervision, and
+          deep learning research with Prof. Alessandro Vinciarelli.
+        </p>
+      </div>
+
+      <div class="collab-card">
+        <h4>Heriot-Watt University</h4>
+        <p>
+          Research collaboration on the EPSRC-funded SoCoRo Project &mdash; socially
+          competent robots for autism research.
+        </p>
+      </div>
+
+      <div class="collab-card">
+        <h4>UCL / Mind Vision Labs / Toyota TRI</h4>
+        <p>
+          PI and Research Lead, 2020&ndash;2022. Attention-based architectures and
+          Transformers for autonomous driving perception.
+        </p>
+      </div>
+
+      <div class="collab-card">
+        <h4>Italian Institute of Technology (IIT)</h4>
+        <p>
+          Research Associate at the PAVIS Lab, 2012&ndash;2013. Computer vision and
+          user recognition with Prof. Vittorio Murino.
+        </p>
+      </div>
+
+      <div class="collab-card">
+        <h4>Cosmo Intelligent Medical Devices</h4>
+        <p>
+          Technical Lead, 2022&ndash;2025. Medical AI for the GI Genius platform.
+          Full lifecycle from research to regulatory-compliant deployment.
+        </p>
+      </div>
+
+    </div><!-- .collabs-grid -->
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     FEATURED PROJECTS
+════════════════════════════════════════════════════════════ -->
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="section-title">
+      Selected Projects
+      <a href="https://github.com/giorgioroffo" target="_blank" rel="noopener noreferrer"
+         class="section-title-link">GitHub &rarr;</a>
+    </h2>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-card-header">
+          <i class="fas fa-code-branch project-icon"></i>
+          <a href="https://github.com/cosmoimd/feature-selection-gates"
+             target="_blank" rel="noopener noreferrer"
+             class="project-name">feature-selection-gates</a>
+        </div>
+        <p class="project-desc">
+          Feature Selection Gates (FSG) with Gradient Routing. A plug-in module for CNNs
+          and Vision Transformers that injects differentiable attention gates for
+          dynamic, sparse feature selection. Published at MICCAI 2024.
+        </p>
+        <div class="project-tags">
+          <span class="ptag">Python</span>
+          <span class="ptag">PyTorch</span>
+          <span class="ptag">Medical Imaging</span>
+          <span class="ptag">MICCAI</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-header">
+          <i class="fas fa-code-branch project-icon"></i>
+          <a href="https://github.com/giorgioroffo/Infinite-Feature-Selection"
+             target="_blank" rel="noopener noreferrer"
+             class="project-name">Infinite-Feature-Selection</a>
+        </div>
+        <p class="project-desc">
+          Inf-FS: a graph-based feature filtering framework using convergence of power
+          series of matrices. Accompanying code for the ICCV 2015 paper and TPAMI 2021
+          journal extension.
+        </p>
+        <div class="project-tags">
+          <span class="ptag">MATLAB</span>
+          <span class="ptag">Feature Selection</span>
+          <span class="ptag">ICCV</span>
+          <span class="ptag">TPAMI</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-header">
+          <i class="fas fa-code-branch project-icon"></i>
+          <a href="https://github.com/giorgioroffo/funny_llm_apps"
+             target="_blank" rel="noopener noreferrer"
+             class="project-name">funny_llm_apps</a>
+        </div>
+        <p class="project-desc">
+          Problem Solving with LLMs &mdash; demos and experiments exploring RAG,
+          tool use, multi-turn reasoning, and agent design.
+        </p>
+        <div class="project-tags">
+          <span class="ptag">Python</span>
+          <span class="ptag">LLMs</span>
+          <span class="ptag">RAG</span>
+          <span class="ptag">Agents</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-header">
+          <i class="fas fa-code-branch project-icon"></i>
+          <a href="https://github.com/giorgioroffo/gpt-multimodal-interior-designer"
+             target="_blank" rel="noopener noreferrer"
+             class="project-name">gpt-multimodal-interior-designer</a>
+        </div>
+        <p class="project-desc">
+          Educational demo showcasing LLM capabilities: image understanding,
+          multimodal reasoning, and generative design using GPT-4 Vision.
+        </p>
+        <div class="project-tags">
+          <span class="ptag">Python</span>
+          <span class="ptag">GPT-4</span>
+          <span class="ptag">Multimodal</span>
+          <span class="ptag">Vision-Language</span>
+        </div>
+      </div>
+
+    </div><!-- .projects-grid -->
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════════════════════════════════════════════════════
+     FOOTER / CONTACT
+════════════════════════════════════════════════════════════ -->
+<footer id="contact" class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+
+      <div class="footer-info">
+        <p class="footer-name">Giorgio Roffo, PhD</p>
+        <p class="footer-role">Head of AI &middot; Equixly</p>
+        <p>
+          <a href="mailto:info@giorgioroffo.eu">info@giorgioroffo.eu</a>
+          &nbsp;&middot;&nbsp;
+          <a href="https://giorgioroffo.eu" target="_blank" rel="noopener noreferrer">giorgioroffo.eu</a>
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://github.com/giorgioroffo"
+           target="_blank" rel="noopener noreferrer" title="GitHub">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://scholar.google.com/citations?user=cD2LFuUAAAAJ&hl=en&authuser=2"
+           target="_blank" rel="noopener noreferrer" title="Scholar">
+          <i class="fas fa-graduation-cap"></i> Scholar
+        </a>
+        <a href="https://www.linkedin.com/in/giorgio-roffo/"
+           target="_blank" rel="noopener noreferrer" title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i> LinkedIn
+        </a>
+        <a href="https://orcid.org/0000-0003-4170-914X"
+           target="_blank" rel="noopener noreferrer">ORCID</a>
+        <a href="https://www.researchgate.net/profile/Giorgio-Roffo"
+           target="_blank" rel="noopener noreferrer">ResearchGate</a>
+        <a href="https://huggingface.co/groffo"
+           target="_blank" rel="noopener noreferrer">&#129303; HuggingFace</a>
+        <a href="https://www.youtube.com/channel/UCMO7NnBZAkVAfFrD6fOJZag"
+           target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-youtube"></i> YouTube
+        </a>
+      </div>
+    </div>
+
+    <p class="footer-copy">
+      &copy; 2026 Giorgio Roffo. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
